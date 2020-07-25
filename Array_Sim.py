@@ -1,28 +1,48 @@
-#Arrays are one of the most commonly-used data structures
-#The elements of an array are stored in contiguous memory locations
-#Arrays are of two types : Static and Dynamic
-#Static arrays have fixed, pre-defined amount of memory that they can use, whereas in dynamic arrays this is flexible
-#In Python we only have dynamic arrays
 
-Array = ['a', 'b', 'c', 'd', 'e']
-first =Array[0]
-last = Array[4]
+# The Brute force approach where each element is compared with another.
+n1 = int(input("Enter the number of elements for 1 :"))
+array1 = []
+for i in range(0, n1):
+    ele1 = int(input())
+    array1.append(ele1)
+n2 = int(input("Enter the number of elements for 2 :"))
+array2 = []
+for i in range(0, n2):
+    ele2 = int(input())
+    array2.append(ele2)
 
-Array.insert(2, 'x')
 
-Array.remove('x')
 
-Array.count('a')
-#Push/Pop
-#Push corresponds to pushing or adding an element at the end of the array.
-#Similarly, pop corresponds to removing the element at the end of the array.
-#Since the index of the end of the array is known, finding it and pushing or popping an element will only require O(1) time
-Array.append('s')
+def arraymatch(arr1, arr2):
+    for i in range(len(arr1)):
+        for j in range(len(arr2)):
+            if arr1[i] == arr2[j]:
+                return print(True)
 
-Array.reverse()
+    return print(False)
 
-#Array.pop(1)
+arraymatch(array1,array2)
+'''
+n1 = int(input("Enter the number of elements"))
+array1 = []
+for i in range(0,n1):
+    ele1=(input())
+    array1.append(ele1)
+n2 = int(input("Enter the number of elements for 2"))
+array2 = []
+for i in range(0,n2):
+    ele2=(input())
+    array2.append(ele2)
 
-print(Array)
-print(first, last)
+def arrayMatch(arr1,arr2):
+    dictionery = dict()
+    for i in range(len(arr1)):
+        dictionery(arr1[i]==True)
 
+    for i in range(len(arr2)):
+        if(arr2[i] in dictionery):
+            return print(True)
+    return False
+arrayMatch(array1,array2)
+
+'''
