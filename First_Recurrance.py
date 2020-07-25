@@ -1,12 +1,17 @@
-array = [1,2,3,4,5]
+def First_rec(array):
+    dictionary = dict()
 
-sum = 32
-def eleSum(arr,sum):
-    for i in range(len(arr)):
-        for j in range(i+1,len(arr)):
-            if arr[i] + arr[j] == sum :
-                return print("Yes")
-    return print("NOPE")
+    for i in array:
+        if i in dictionary:
+            return i
+        else:
+            dictionary[i] = True
+    return None
 
-eleSum(array,sum)
+
+array = [2, 1, 4, 1, 6, 5, 1, 4]
+
+print(First_rec(array))
+
+
 
