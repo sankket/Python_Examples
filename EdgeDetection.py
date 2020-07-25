@@ -7,6 +7,7 @@ def sketch(image):
    #Blurring the image for getting smooth image as well as reducing The noise.
     img_gray_blur = cv2.GaussianBlur(img_gray,(5,5),0)# Gaussian kernal values
    #canny function is used edge detection and accepts grey scale images.
+   #Canny Edge Detection is image Processing Method.
     canny_edge = cv2.Canny(img_gray_blur, 40, 110)  # 10 is upper and 70 is lower threshold for hysterysis procedure.
 
    #Converting into Binary format
