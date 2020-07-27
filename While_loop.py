@@ -1,3 +1,5 @@
+# Working of the while loop.
+#loop will keep on running until the condition is satisfied.
 num = 0
 
 while num < 10:
