@@ -1,4 +1,4 @@
-#First python program
+#My First python Code
 
 print("Welcome to Python_examples")
-print(2*4)
+
