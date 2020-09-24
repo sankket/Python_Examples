@@ -22,7 +22,8 @@ def arraymatch(arr1, arr2):
     return print(False)
 
 arraymatch(array1,array2)
-'''
+
+# Another Method.
 n1 = int(input("Enter the number of elements"))
 array1 = []
 for i in range(0,n1):
@@ -45,4 +46,3 @@ def arrayMatch(arr1,arr2):
     return False
 arrayMatch(array1,array2)
 
-'''
