@@ -1,4 +1,4 @@
-#Conversion of Celcius to Fahrenheit Degrees
+# Celcius to Fehrenhrit
 print('Enter 5 Celcius Values:')
 vals = [int(input()) for x in range(5)]
 Fer =[]
