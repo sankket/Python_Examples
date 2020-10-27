@@ -21,7 +21,7 @@ Array.append('s')
 
 Array.reverse()
 
-#Array.pop(1)
+Array.pop(1)
 
 print(Array)
 print(first, last)
