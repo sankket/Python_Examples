@@ -12,3 +12,5 @@ def eleSum(arr,sum):
     return print("NOPE")
 
 eleSum(array,sum)
+
+# The given approach is brute force approach.
