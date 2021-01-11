@@ -4,4 +4,6 @@ class Solution:
         for i in nums:
             ans=ans^i
         return ans
+    
+    singleNumber()
             
