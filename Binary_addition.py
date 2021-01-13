@@ -4,4 +4,7 @@ class Solution:
         b = int(b,2)
         c = a + b
         return bin(c)[2:]
+    
+# binary addition of the two numbers.
+# The slicing is used.
         
