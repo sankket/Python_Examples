@@ -22,6 +22,7 @@ Array.append('s')
 Array.reverse()
 
 Array.pop(1)
+#popping operation means deleting the last element in the array.
 
 print(Array)
 print(first, last)
