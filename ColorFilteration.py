@@ -20,8 +20,9 @@ while True:
     cv2.imshow("result", result1)
     cv2.imshow("show1", frame)
 
-    if cv2.waitKey(1) == 13:
+    if cv2.waitKey(1) == 15:
         break
 
 device.release()
+#following Line would exit the application after pressing enter.
 cv2.destroyAllWindows()
