@@ -23,7 +23,7 @@ def arraymatch(arr1, arr2):
 
 arraymatch(array1,array2)
 
-# Another Method.
+# Another Method.alternative method.
 n1 = int(input("Enter the number of elements"))
 array1 = []
 for i in range(0,n1):
