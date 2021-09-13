@@ -11,3 +11,5 @@ class Solution:
                 maxprofit += prices[i+1] -  prices[i]
             
         return maxprofit
+
+ #program to buy the stocks and make the big profit
