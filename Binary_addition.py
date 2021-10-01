@@ -3,7 +3,7 @@ class Solution:
         a = int(a,2)
         b = int(b,2)
         c = a + b
-        return bin(c)[2:]
+        return bin(c)[1:]
     
 # binary addition of the two numbers.
 # The slicing is used.
