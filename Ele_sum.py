@@ -1,7 +1,7 @@
 #This problem has been asked in Google Interview.
 # Though this is not a optimum solution.
 # its Complexity is O(nxn).
-array = [1,2,3,4,5]
+array = [1,2,3,4,5,6]
 
 sum = 6
 def eleSum(arr,sum):
