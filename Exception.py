@@ -21,4 +21,4 @@ finally:
     print("Finally Block will always executes")
     
 #In The Exception Handling if you think that this block of the code will throw an error, so keep it in the try block and try to handle it catch.
-#The finally block will always executes.
+#The finally block will always executes.(It doesnt depend on other exceptions.)
