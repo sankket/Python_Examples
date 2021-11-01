@@ -1,5 +1,5 @@
-#Dictionary is mutable.
-person=dict(Name="Sanket",Age=23,Salary=25000)
+#Dictionary is mutable.(The values can be chnaged)
+person=dict(Name="Sanket",Age=23,Salary=52000)
 print(person)
 print(person["Name"])
 print("update name")
@@ -12,5 +12,5 @@ print("delete age")
 del person["Age"]
 print(person)
 #print Salary of Sanket
-print("The salary of Hari is:")
+print("The salary of Sanket is:")
 print(person["Salary"])
