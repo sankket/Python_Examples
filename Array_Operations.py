@@ -8,9 +8,9 @@ Array = ['a', 'b', 'c', 'd', 'e']
 first =Array[0]
 last = Array[4]
 
-Array.insert(2, 'x')
+Array.insert(2, 'y')
 
-Array.remove('x')
+Array.remove('y')
 
 Array.count('a')
 #Push/Pop
